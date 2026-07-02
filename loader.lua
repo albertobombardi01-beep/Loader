@@ -1,1 +1,1 @@
-print("fuck you")
+local gameslist = loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
