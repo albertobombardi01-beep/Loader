@@ -1,3 +1,4 @@
+print(game.PlaceId)
 local gameslist = loadstring(game:HttpGet("https://raw.githubusercontent.com/albertobombardi01-beep/Loader/refs/heads/main/gameslist.lua"))()
 
 local isInGame = false
