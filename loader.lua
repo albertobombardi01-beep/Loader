@@ -1,1 +1,10 @@
-local gameslist = loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+local gameslist = loadstring(game:HttpGet("https://raw.githubusercontent.com/albertobombardi01-beep/Loader/refs/heads/main/gameslist.lua"))()
+
+local isInGame = false
+for _, gameListed: string in gameslist do
+    if game.PlaceId == gameListed then  
+        isInGame = true
+    end
+end
+
+if not isInGame then return end
