@@ -8,3 +8,5 @@ for _, gameListed: string in gameslist do
 end
 
 if not isInGame then return end
+
+print("Allah akbar")
