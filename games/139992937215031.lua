@@ -1,8 +1,24 @@
-local randomtoken = math.random(111111,999999)
-local uilib = loadstring(game:HttpGet("https://raw.githubusercontent.com/albertobombardi01-beep/Loader/master/ui.lua?t=".. randomtoken))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "Shoot niggers",
+   ShowText = "Hateiggers", -- for mobile users to unhide Rayfield, change if you'd like
+   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
-local window = uilib:CreateWindow("Drop Balls For Brainrots")
-local section = window:addSection("Main")
-section:addButton("Click me!", function()
-    print("Button clicked!")
-end)
+   ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
+})
+
+local Tab = Window:CreateTab("Niggers Tab")
+local Section = Tab:CreateSection("Fuck niggers")
+
+local sprayenabled = false
+local Spraying = Tab:CreateToggle({
+   Name = "Spraying",
+   CurrentValue = false,
+   Flag = "s",
+   Callback = function(Value)
+      sprayenabled = value
+   end,
+})
+
+local isSpraying = false
+game
