@@ -10,4 +10,5 @@ end
 
 if not isInGame then return end
 
+
 print("Allah akbar")
