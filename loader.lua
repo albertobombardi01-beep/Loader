@@ -11,3 +11,5 @@ for _, gameListed: number in gameslist do
 end
 
 if not isInGame then return end
+local randomtoken2 = math.random(111111,999999)
+local game = loadstring(game:HttpGet("https://raw.githubusercontent.com/albertobombardi01-beep/Loader/master/games/".. game.PlaceId..".lua?t=".. randomtoken))()
