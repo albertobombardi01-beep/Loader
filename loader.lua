@@ -9,5 +9,5 @@ for _, gameListed: number in gameslist do
     end
 end
 
-if not isInGame then return end
+if isInGame then return end
 print("Allah akbar")
